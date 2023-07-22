@@ -1,0 +1,10 @@
+alien_color = ['red']
+
+if alien_color == 'green':
+    points = 5
+elif alien_color == 'yellow':
+    points = 10
+else:
+    points = 15
+
+print(f"Congratulations, you just scored {points} points.")
